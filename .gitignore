@@ -1,1 +1,47 @@
+
+# ── Archivos privados Claude / IA ──────────────────
 CLAUDE.md
+.claude/
+agents/
+skills/
+*.skill.md
+*.agent.json
+paperclip.config.*
+
+# ── Credenciales y entorno ──────────────────────────
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# ── Python ─────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+.pytest_cache/
+
+# ── Node / Frontend ────────────────────────────────
+node_modules/
+dist/
+.next/
+.nuxt/
+build/
+
+# ── Firebase ───────────────────────────────────────
+.firebase/
+.firebaserc.local
+firebase-debug.log
+
+# ── Sistema ────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.log
+.antigravity/
+
