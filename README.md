@@ -90,4 +90,4 @@ Recommended star schema:
 
 ---
 
-*Built by [Mindset & Code](https://github.com/mindset-code) · Data & BI Analyst · [LinkedIn](https://linkedin.com/company/mindset-code)*
+*Built by [Mindset & Code](https://github.com/mindset-code) · Data & BI Analyst · [LinkedIn](https://linkedin.com/company/mindset-codeú-027a3a120)*
