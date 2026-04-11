@@ -2,8 +2,8 @@
 
 > **BI / RevOps Portfolio Project** · 24 KPIs · Finance · Marketing · Pipeline
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-%E2%86%92%20Open%20Dashboard-60a5fa?style=for-the-badge&logo=firebase&logoColor=white)](https://sales-weather-etl.web.app/executive)
-[![ETL Pipeline](https://img.shields.io/badge/Also%20See-Sales%20%26%20Weather%20ETL-f472b6?style=for-the-badge)](https://sales-weather-etl.web.app)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-%E2%86%92%20Open%20Dashboard-60a5fa?style=for-the-badge&logo=firebase&logoColor=white)](https://proyectos-personales.web.app/executive)
+[![ETL Pipeline](https://img.shields.io/badge/Also%20See-Sales%20%26%20Weather%20ETL-f472b6?style=for-the-badge)](https://proyectos-personales.web.app)
 
 ---
 
@@ -11,7 +11,7 @@
 
 Defines, calculates and structures the 24 most critical executive KPIs for data-driven leadership decisions. Covers Finance, RevOps and Marketing in a single 360° view. The dataset drives a live React dashboard deployed on Firebase.
 
-**Live dashboard → [sales-weather-etl.web.app/executive](https://sales-weather-etl.web.app/executive)**
+**Live dashboard → [proyectos-personales.web.app/executive](https://proyectos-personales.web.app/executive)**
 
 ---
 
