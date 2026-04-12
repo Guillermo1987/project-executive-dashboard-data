@@ -60,7 +60,7 @@ pipeline_stages.csv      180 rows  · 5 stages × 36 months
 | Layer | Technology |
 |-------|-----------|
 | Data generation | Python 3.12, Pandas 2.2, NumPy |
-| Web | React 19, Vite, Recharts (hosted in [project-sales-weather-etl](https://github.com/Guillermo1987/project-sales-weather-etl)) |
+| Web | React 19, Vite, Recharts — [proyectos-personales.web.app/executive](https://proyectos-personales.web.app/executive) |
 | Hosting | Firebase Hosting (Spark plan) |
 
 ---
@@ -90,4 +90,4 @@ Recommended star schema:
 
 ---
 
-*Built by [Guillermo Ubeda](https://github.com/Guillermo1987) · Data & BI Analyst · [LinkedIn](https://linkedin.com/in/guillermo-alejandro-ú-027a3a120)*
+*Built by [Guillermo Ubeda](https://github.com/Guillermo1987) · Data & BI Analyst · [LinkedIn](https://linkedin.com/in/guillermo-ubeda-garay)*
