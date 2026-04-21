@@ -1,9 +1,25 @@
 # Executive Dashboard 360° — Business Intelligence Portfolio
 
 > **BI / RevOps Portfolio Project** · 24 KPIs · Finance · Marketing · Pipeline
+> **Status:** Finished · Deployed to production (2026-04)
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-%E2%86%92%20Open%20Dashboard-60a5fa?style=for-the-badge&logo=firebase&logoColor=white)](https://proyectos-personales.web.app/executive)
+[![Portfolio](https://img.shields.io/badge/Portfolio-proyectos--personales.web.app-8b5cf6?style=for-the-badge&logo=firebase&logoColor=white)](https://proyectos-personales.web.app)
 [![ETL Pipeline](https://img.shields.io/badge/Also%20See-Sales%20%26%20Weather%20ETL-f472b6?style=for-the-badge)](https://proyectos-personales.web.app)
+
+---
+
+## Project Status
+
+| Phase | Status |
+|---|---|
+| KPI framework design (24 metrics) | Done |
+| Data model (5 analytical tables × 36 months) | Done |
+| Synthetic data generation | Done |
+| React dashboard integration | Done |
+| Firebase deployment | Done |
+
+**Current phase:** maintenance — dashboard live and open for Power BI / Tableau reuse.
 
 ---
 
@@ -90,4 +106,12 @@ Recommended star schema:
 
 ---
 
-*Built by [Mindset & Code](https://github.com/mindset-code) · Data & BI Analyst · [LinkedIn](https://linkedin.com/company/mindset-code)*
+## Links
+
+- **Portfolio:** [proyectos-personales.web.app](https://proyectos-personales.web.app)
+- **LinkedIn:** [Mindset & Code](https://www.linkedin.com/company/mindset-code/?locale=en_US)
+- **Email:** contacto@mindset-code.com
+
+---
+
+*Built by [Mindset & Code](https://github.com/mindset-code) · Data & BI Analyst · MBA · ISC2 CC*
