@@ -47,3 +47,7 @@ Thumbs.db
 *.log
 .antigravity/
 
+CLAUDE.local.md
+
+# Outputs subagentes
+.claude/progress/
