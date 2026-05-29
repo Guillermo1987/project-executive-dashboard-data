@@ -1,0 +1,3 @@
+# Executive Dashboard 360° — data layer dependencies
+pandas>=2.2
+numpy>=1.26
