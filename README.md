@@ -6,8 +6,8 @@
 
 > 🇬🇧 **English version first.** · 🇪🇸 **La versión en español está más abajo** → [ir a Español](#-español).
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-%E2%86%92%20Open%20Dashboard-a78bfa?style=for-the-badge&logo=firebase&logoColor=white)](https://proyectos-personales.web.app/executive)
-[![Portfolio](https://img.shields.io/badge/Portfolio-proyectos--personales.web.app-60a5fa?style=for-the-badge&logo=firebase&logoColor=white)](https://proyectos-personales.web.app)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-%E2%86%92%20Open%20Dashboard-a78bfa?style=for-the-badge&logo=firebase&logoColor=white)](https://proyectos-mindset-code.web.app/executive)
+[![Ficha del proyecto](https://img.shields.io/badge/Ficha%20del%20proyecto-mindset--code.com-2c4a6e?style=for-the-badge&logo=firefoxbrowser&logoColor=white)](https://mindset-code.com/es/codigo)
 [![Stack](https://img.shields.io/badge/Stack-Python%20%C2%B7%20Pandas%20%C2%B7%20React-3776AB?style=for-the-badge&logo=python&logoColor=white)](.)
 [![Domain](https://img.shields.io/badge/Domain-RevOps%20%C2%B7%20BI%20%C2%B7%20SaaS%20Metrics-16a34a?style=for-the-badge)](.)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
@@ -48,7 +48,7 @@ It is a **portfolio piece**: the data is synthetic by design, but the metric mod
 
 ## Live demo
 
-**▶ [proyectos-personales.web.app/executive](https://proyectos-personales.web.app/executive)**
+**▶ [proyectos-mindset-code.web.app/executive](https://proyectos-mindset-code.web.app/executive)**
 
 The dashboard renders the 24 KPIs as KPI cards, revenue trends, segment/channel breakdowns, a marketing funnel, a CAC↔LTV trend and a churn↔NRR trend.
 
@@ -73,7 +73,7 @@ flowchart LR
     A["generate_data.py<br/>Python · Pandas · NumPy"] -->|"5 CSV tables"| B["data/<br/>(regenerated, not versioned)"]
     B --> C["generate_executive_json.mjs<br/>(project-sales-weather-etl)"]
     C -->|"JSON"| D["ExecutiveDashboard.jsx<br/>React 19 · Recharts<br/>(project-portfolio)"]
-    D --> E["Live<br/>proyectos-personales.web.app/executive"]
+    D --> E["Live<br/>proyectos-mindset-code.web.app/executive"]
 ```
 
 | Stage | Repository | Role |
@@ -174,7 +174,7 @@ Expected output:
 ✓ pipeline_stages.csv       — 180 rows
 ```
 
-To see the data rendered, open the [live dashboard](https://proyectos-personales.web.app/executive) or run the [`project-portfolio`](https://github.com/mindset-code/project-portfolio) frontend locally.
+To see the data rendered, open the [live dashboard](https://proyectos-mindset-code.web.app/executive) or run the [`project-portfolio`](https://github.com/mindset-code/project-portfolio) frontend locally.
 
 ---
 
@@ -196,7 +196,7 @@ project-executive-dashboard-data/
 
 - **[project-portfolio](https://github.com/mindset-code/project-portfolio)** — React frontend that renders this dashboard (live at `/executive`).
 - **[project-sales-weather-etl](https://github.com/mindset-code/project-sales-weather-etl)** — JSON build step for the web layer.
-- **Full portfolio:** [proyectos-personales.web.app](https://proyectos-personales.web.app)
+- **Full portfolio:** [proyectos-mindset-code.web.app](https://proyectos-mindset-code.web.app)
 
 ---
 
@@ -208,8 +208,8 @@ Released under the **[MIT License](LICENSE)** — free to use, modify and distri
 
 ## Contact
 
-- **Portfolio:** [proyectos-personales.web.app](https://proyectos-personales.web.app)
-- **LinkedIn:** [Mindset & Code](https://www.linkedin.com/company/mindset-code)
+- **Portfolio:** [proyectos-mindset-code.web.app](https://proyectos-mindset-code.web.app)
+- **Web:** [mindset-code.com](https://mindset-code.com/es)
 - **Email:** contacto@mindset-code.com
 
 ---
@@ -260,7 +260,7 @@ Es una **pieza de portafolio**: los datos son sintéticos a propósito, pero el 
 
 ## Demo en vivo
 
-**▶ [proyectos-personales.web.app/executive](https://proyectos-personales.web.app/executive)**
+**▶ [proyectos-mindset-code.web.app/executive](https://proyectos-mindset-code.web.app/executive)**
 
 El dashboard renderiza los 24 KPIs como tarjetas, tendencias de revenue, desgloses por segmento/canal, un funnel de marketing, una tendencia CAC↔LTV y una tendencia churn↔NRR.
 
@@ -285,7 +285,7 @@ flowchart LR
     A["generate_data.py<br/>Python · Pandas · NumPy"] -->|"5 tablas CSV"| B["data/<br/>(regeneradas, no versionadas)"]
     B --> C["generate_executive_json.mjs<br/>(project-sales-weather-etl)"]
     C -->|"JSON"| D["ExecutiveDashboard.jsx<br/>React 19 · Recharts<br/>(project-portfolio)"]
-    D --> E["En vivo<br/>proyectos-personales.web.app/executive"]
+    D --> E["En vivo<br/>proyectos-mindset-code.web.app/executive"]
 ```
 
 | Etapa | Repositorio | Rol |
@@ -386,7 +386,7 @@ Salida esperada:
 ✓ pipeline_stages.csv       — 180 filas
 ```
 
-Para ver los datos renderizados, abre el [dashboard en vivo](https://proyectos-personales.web.app/executive) o ejecuta el frontend de [`project-portfolio`](https://github.com/mindset-code/project-portfolio) en local.
+Para ver los datos renderizados, abre el [dashboard en vivo](https://proyectos-mindset-code.web.app/executive) o ejecuta el frontend de [`project-portfolio`](https://github.com/mindset-code/project-portfolio) en local.
 
 ---
 
@@ -408,7 +408,7 @@ project-executive-dashboard-data/
 
 - **[project-portfolio](https://github.com/mindset-code/project-portfolio)** — Frontend React que renderiza este dashboard (en vivo en `/executive`).
 - **[project-sales-weather-etl](https://github.com/mindset-code/project-sales-weather-etl)** — Paso de build a JSON para la capa web.
-- **Portafolio completo:** [proyectos-personales.web.app](https://proyectos-personales.web.app)
+- **Portafolio completo:** [proyectos-mindset-code.web.app](https://proyectos-mindset-code.web.app)
 
 ---
 
@@ -420,10 +420,10 @@ Publicado bajo la **[Licencia MIT](LICENSE)** — libre de usar, modificar y dis
 
 ## Contacto
 
-- **Portafolio:** [proyectos-personales.web.app](https://proyectos-personales.web.app)
-- **LinkedIn:** [Mindset & Code](https://www.linkedin.com/company/mindset-code)
+- **Portafolio:** [proyectos-mindset-code.web.app](https://proyectos-mindset-code.web.app)
+- **Web:** [mindset-code.com](https://mindset-code.com/es)
 - **Email:** contacto@mindset-code.com
 
 ---
 
-*Built by [Mindset & Code](https://github.com/mindset-code) · Data & BI Analyst · MBA · ISC2 CC*
+*Mindset & Code · asesoría fiscal y tecnológica · [mindset-code.com](https://mindset-code.com/es)*
