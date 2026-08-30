@@ -12,6 +12,10 @@
 [![Domain](https://img.shields.io/badge/Domain-RevOps%20%C2%B7%20BI%20%C2%B7%20SaaS%20Metrics-16a34a?style=for-the-badge)](.)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
+[![Executive dashboard running: 24 interlocked KPIs and a 36-month revenue trend](docs/captura.jpg)](https://proyectos-mindset-code.web.app/executive)
+
+*[Open the live demo](https://proyectos-mindset-code.web.app/executive)*
+
 ---
 
 ## Table of Contents
