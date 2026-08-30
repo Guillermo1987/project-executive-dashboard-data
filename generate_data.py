@@ -56,8 +56,18 @@ def build_summary():
     nrr             = ((revenue + expansion_rev - contraction_rev - churned * (revenue / new_customers.cumsum().clip(1))) / revenue).clip(0.7, 1.4).round(4)
 
     mkt_spend       = (revenue * trend(0.10, 0.07, 0.006)).round(0)
-    mqls            = (mkt_spend / trend(180, 110, 12)).clip(1).astype(int)
-    sqls            = (mqls * trend(0.28, 0.38, 0.02)).clip(1).astype(int)
+    # El embudo se construye HACIA ATRAS, desde los clientes cerrados.
+    #
+    # Antes se generaba hacia delante -- MQLs a partir del gasto, SQLs a partir
+    # de los MQLs -- mientras new_customers salia de su propia tendencia, sin
+    # relacion con ninguno de los dos. El resultado eran meses con 105 clientes
+    # cerrados sobre 70 oportunidades cualificadas: una conversion del 150 %,
+    # publicada en un cuadro de mando que promete que sus indicadores cuadran.
+    # Derivandolos del cierre, el embudo solo puede estrecharse.
+    sql_to_won      = trend(0.42, 0.55, 0.02).clip(0.15, 0.80)
+    sqls            = np.ceil(new_customers / sql_to_won).clip(1).astype(int)
+    mql_to_sql      = trend(0.28, 0.38, 0.02).clip(0.10, 0.90)
+    mqls            = np.ceil(sqls / mql_to_sql).clip(1).astype(int)
     cac             = (mkt_spend / new_customers.clip(1)).round(2)
     ltv             = ((revenue / new_customers.cumsum().clip(1)) / churn_rate.clip(0.01)).round(2)
     ltv_cac         = (ltv / cac.clip(1)).round(2)
